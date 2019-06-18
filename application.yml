@@ -4,14 +4,10 @@ spring:
     username: root
     password: password
     driver-class-name: com.mysql.jdbc.Driver   
-
-spring:
   jpa:
     properties:
       hibernates:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-
-spring:
   jpa:
     hibernate:
       ddl-auto: update
